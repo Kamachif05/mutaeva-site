@@ -1,0 +1,32 @@
+[Unit]
+Description=Mutaeva price administration
+After=network.target
+
+[Service]
+Type=simple
+DynamicUser=yes
+WorkingDirectory=/srv/mutaeva-site
+ExecStart=/usr/bin/node /srv/mutaeva-site/server/server.mjs
+Environment=PORT=3115
+Environment=ADMIN_ORIGIN=https://admin.mutaeva.ru
+Environment=PUBLIC_ORIGIN=https://mutaeva.ru
+Environment=DATA_DIRECTORY=/var/lib/mutaeva-site
+Environment=NODE_ENV=production
+LoadCredential=admin.json:/srv/mutaeva-site/secrets/admin.json
+StateDirectory=mutaeva-site
+StateDirectoryMode=0700
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target
