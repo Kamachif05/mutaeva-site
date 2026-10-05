@@ -1,0 +1,9 @@
+work/
+runtime/
+secrets/
+materials/private/
+.env
+.env.*
+!.env.example
+node_modules/
+outputs/

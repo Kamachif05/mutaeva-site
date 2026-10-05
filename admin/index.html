@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Управление ценами - Карина Мутаева</title>
+  <link rel="stylesheet" href="/assets/admin.css">
+  <script src="/config.js" defer></script>
+  <script src="/assets/admin.js" defer></script>
+</head>
+<body>
+  <header><a href="https://mutaeva.ru">Карина Мутаева <span>Управление ценами</span></a><button id="logout" type="button" class="secondary" hidden>Выйти</button></header>
+  <main>
+    <p id="message" class="message" role="status" aria-live="polite"></p>
+    <section id="login-panel" class="login-card">
+      <p class="eyebrow">Личный кабинет</p>
+      <h1>Вход в управление ценами</h1>
+      <p>Изменения сохраняются для Москвы и Махачкалы отдельно.</p>
+      <form id="login-form">
+        <label>Логин<input name="username" autocomplete="username" required maxlength="80"></label>
+        <label>Пароль<input name="password" type="password" autocomplete="current-password" required maxlength="256"></label>
+        <button class="primary" type="submit">Войти</button>
+      </form>
+    </section>
+    <section id="editor" hidden>
+      <div class="intro"><div><p class="eyebrow">Стоимость услуг</p><h1>Редактирование цен</h1><p id="updated"></p></div><a class="site-link" href="https://mutaeva.ru/#prices" target="_blank" rel="noopener">Открыть сайт ↗</a></div>
+      <p class="hint">Введите стоимость в рублях. Отметьте «от», если цена зависит от объёма процедуры.</p>
+      <div class="tools"><label class="search">Найти услугу<input id="search" type="search" placeholder="Название или раздел" autocomplete="off"></label><button id="reload" class="secondary" type="button">Загрузить сохранённые цены</button></div>
+      <form id="price-form"><div id="rows"></div><p id="no-results" hidden>Услуги не найдены. Попробуйте другое название.</p><div class="save-bar"><p id="changes">Нет несохранённых изменений</p><button id="save" class="primary" type="submit" disabled>Сохранить цены</button></div></form>
+    </section>
+    <noscript>Для управления ценами необходимо включить JavaScript.</noscript>
+  </main>
+</body>
+</html>

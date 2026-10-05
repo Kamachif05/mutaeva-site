@@ -1,0 +1,566 @@
+{
+  "services": [
+    {
+      "id": "service-001",
+      "category": "Косметология · Консультация",
+      "name": "Очная консультация",
+      "note": "Если в день визита проводится процедура - консультация бесплатно"
+    },
+    {
+      "id": "service-002",
+      "category": "Биоревитализация",
+      "name": "Meso-Xanthin F199",
+      "note": ""
+    },
+    {
+      "id": "service-003",
+      "category": "Биоревитализация",
+      "name": "Meso-Wharton",
+      "note": ""
+    },
+    {
+      "id": "service-004",
+      "category": "Биоревитализация",
+      "name": "Revi Strong · 2 ml",
+      "note": ""
+    },
+    {
+      "id": "service-005",
+      "category": "Биоревитализация",
+      "name": "Revi Strong · 1 ml",
+      "note": ""
+    },
+    {
+      "id": "service-006",
+      "category": "Биоревитализация",
+      "name": "Novacutan",
+      "note": ""
+    },
+    {
+      "id": "service-007",
+      "category": "Биоревитализация",
+      "name": "Profhilo",
+      "note": ""
+    },
+    {
+      "id": "service-008",
+      "category": "Биоревитализация",
+      "name": "Neauvia Hydro",
+      "note": ""
+    },
+    {
+      "id": "service-009",
+      "category": "Биоревитализация",
+      "name": "Filorga 135 HA",
+      "note": ""
+    },
+    {
+      "id": "service-010",
+      "category": "Биоревитализация",
+      "name": "Collost Micro",
+      "note": ""
+    },
+    {
+      "id": "service-011",
+      "category": "Биоревитализация",
+      "name": "Collost Micro + NCTF 133",
+      "note": ""
+    },
+    {
+      "id": "service-012",
+      "category": "Биоревитализация",
+      "name": "Collost 7%",
+      "note": ""
+    },
+    {
+      "id": "service-013",
+      "category": "Биоревитализация",
+      "name": "Collost 15%",
+      "note": ""
+    },
+    {
+      "id": "service-014",
+      "category": "Биоревитализация",
+      "name": "Plinest / Plinest Fast",
+      "note": ""
+    },
+    {
+      "id": "service-015",
+      "category": "Биоревитализация · Периорбитальная зона",
+      "name": "Revi Eye",
+      "note": ""
+    },
+    {
+      "id": "service-016",
+      "category": "Биоревитализация · Периорбитальная зона",
+      "name": "Meso Eye",
+      "note": ""
+    },
+    {
+      "id": "service-017",
+      "category": "Ботулинотерапия · Препарат Релатокс",
+      "name": "Зона глаз",
+      "note": ""
+    },
+    {
+      "id": "service-018",
+      "category": "Ботулинотерапия · Препарат Релатокс",
+      "name": "Межбровье",
+      "note": ""
+    },
+    {
+      "id": "service-019",
+      "category": "Ботулинотерапия · Препарат Релатокс",
+      "name": "Подбородок",
+      "note": ""
+    },
+    {
+      "id": "service-020",
+      "category": "Ботулинотерапия · Препарат Релатокс",
+      "name": "Платизма",
+      "note": ""
+    },
+    {
+      "id": "service-021",
+      "category": "Ботулинотерапия · Препарат Релатокс",
+      "name": "Жевательные мышцы",
+      "note": ""
+    },
+    {
+      "id": "service-022",
+      "category": "Ботулинотерапия · Препарат Релатокс",
+      "name": "Лечение гипергидроза",
+      "note": "Повышенная потливость подмышечных впадин"
+    },
+    {
+      "id": "service-023",
+      "category": "Мезотерапия",
+      "name": "Волосистая часть головы",
+      "note": "Лечение выпадения волос"
+    },
+    {
+      "id": "service-024",
+      "category": "Чистка лица",
+      "name": "УЗ-чистка",
+      "note": ""
+    },
+    {
+      "id": "service-025",
+      "category": "Чистка лица",
+      "name": "Комбинированная чистка",
+      "note": ""
+    },
+    {
+      "id": "service-026",
+      "category": "Пилинги",
+      "name": "Комплекс AHA-кислот",
+      "note": ""
+    },
+    {
+      "id": "service-027",
+      "category": "Пилинги",
+      "name": "PRX-T33",
+      "note": ""
+    },
+    {
+      "id": "service-028",
+      "category": "Пилинги",
+      "name": "PRX-T33 + Микронидлинг",
+      "note": ""
+    },
+    {
+      "id": "service-029",
+      "category": "Пилинги",
+      "name": "BioRePeel",
+      "note": ""
+    },
+    {
+      "id": "service-030",
+      "category": "Липолитики",
+      "name": "Light Fit · 2 ml",
+      "note": ""
+    },
+    {
+      "id": "service-031",
+      "category": "Липолитики",
+      "name": "Стройность",
+      "note": ""
+    },
+    {
+      "id": "service-032",
+      "category": "Диетология и нутрициология",
+      "name": "Консультация",
+      "note": "Анамнез, биоимпедансометрия, индивидуальный план питания"
+    },
+    {
+      "id": "service-033",
+      "category": "Диетология и нутрициология",
+      "name": "Индивидуальное ведение",
+      "note": "1 месяц: контроль динамики, корректировка плана, связь онлайн"
+    },
+    {
+      "id": "service-034",
+      "category": "Гастроэнтерология",
+      "name": "Первичный приём",
+      "note": "С интерпретацией анализов и обследований"
+    },
+    {
+      "id": "service-035",
+      "category": "Гастроэнтерология",
+      "name": "Повторный приём",
+      "note": ""
+    }
+  ],
+  "prices": {
+    "service-001": {
+      "moscow": {
+        "amount": 3000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 3000,
+        "from": false
+      }
+    },
+    "service-002": {
+      "moscow": {
+        "amount": 17000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 15000,
+        "from": false
+      }
+    },
+    "service-003": {
+      "moscow": {
+        "amount": 17000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 14000,
+        "from": false
+      }
+    },
+    "service-004": {
+      "moscow": {
+        "amount": 16000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 14000,
+        "from": false
+      }
+    },
+    "service-005": {
+      "moscow": {
+        "amount": 16000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 14000,
+        "from": false
+      }
+    },
+    "service-006": {
+      "moscow": {
+        "amount": 17000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 15000,
+        "from": false
+      }
+    },
+    "service-007": {
+      "moscow": {
+        "amount": 17000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 15000,
+        "from": false
+      }
+    },
+    "service-008": {
+      "moscow": {
+        "amount": 14000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 12000,
+        "from": false
+      }
+    },
+    "service-009": {
+      "moscow": {
+        "amount": 13000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 11000,
+        "from": false
+      }
+    },
+    "service-010": {
+      "moscow": {
+        "amount": 19000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 17000,
+        "from": false
+      }
+    },
+    "service-011": {
+      "moscow": {
+        "amount": 23000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 21000,
+        "from": false
+      }
+    },
+    "service-012": {
+      "moscow": {
+        "amount": 19000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 17000,
+        "from": false
+      }
+    },
+    "service-013": {
+      "moscow": {
+        "amount": 19000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 17000,
+        "from": false
+      }
+    },
+    "service-014": {
+      "moscow": {
+        "amount": 17000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 15000,
+        "from": false
+      }
+    },
+    "service-015": {
+      "moscow": {
+        "amount": 12000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 11000,
+        "from": false
+      }
+    },
+    "service-016": {
+      "moscow": {
+        "amount": 12000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 11000,
+        "from": false
+      }
+    },
+    "service-017": {
+      "moscow": {
+        "amount": 6000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 5000,
+        "from": false
+      }
+    },
+    "service-018": {
+      "moscow": {
+        "amount": 6000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 5000,
+        "from": false
+      }
+    },
+    "service-019": {
+      "moscow": {
+        "amount": 4000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 4000,
+        "from": false
+      }
+    },
+    "service-020": {
+      "moscow": {
+        "amount": 8000,
+        "from": true
+      },
+      "makhachkala": {
+        "amount": 7000,
+        "from": true
+      }
+    },
+    "service-021": {
+      "moscow": {
+        "amount": 6000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 5000,
+        "from": false
+      }
+    },
+    "service-022": {
+      "moscow": {
+        "amount": 12000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 11000,
+        "from": false
+      }
+    },
+    "service-023": {
+      "moscow": {
+        "amount": 6000,
+        "from": true
+      },
+      "makhachkala": {
+        "amount": 5000,
+        "from": true
+      }
+    },
+    "service-024": {
+      "moscow": {
+        "amount": 4000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 3000,
+        "from": false
+      }
+    },
+    "service-025": {
+      "moscow": {
+        "amount": 5000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 4000,
+        "from": false
+      }
+    },
+    "service-026": {
+      "moscow": {
+        "amount": 3000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 3000,
+        "from": false
+      }
+    },
+    "service-027": {
+      "moscow": {
+        "amount": 4000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 4000,
+        "from": false
+      }
+    },
+    "service-028": {
+      "moscow": {
+        "amount": 6000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 6000,
+        "from": false
+      }
+    },
+    "service-029": {
+      "moscow": {
+        "amount": 4000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 4000,
+        "from": false
+      }
+    },
+    "service-030": {
+      "moscow": {
+        "amount": 5000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 5000,
+        "from": false
+      }
+    },
+    "service-031": {
+      "moscow": {
+        "amount": 14000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 14000,
+        "from": false
+      }
+    },
+    "service-032": {
+      "moscow": {
+        "amount": 3000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 2000,
+        "from": false
+      }
+    },
+    "service-033": {
+      "moscow": {
+        "amount": 20000,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 14000,
+        "from": false
+      }
+    },
+    "service-034": {
+      "moscow": {
+        "amount": 3500,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 2500,
+        "from": false
+      }
+    },
+    "service-035": {
+      "moscow": {
+        "amount": 2500,
+        "from": false
+      },
+      "makhachkala": {
+        "amount": 1800,
+        "from": false
+      }
+    }
+  }
+}
